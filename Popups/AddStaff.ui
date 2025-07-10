@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #D8EDF3;
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QFrame" name="alltopframe">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="spacer1">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="titlelogoframe">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>250</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>210</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="stafflogo">
+           <property name="maximumSize">
+            <size>
+             <width>90</width>
+             <height>90</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="HPAC IS/Hpac.qrc">:/icons/Staff.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="addstafftitle">
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 25px;
+	color: #072A42;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add Staff</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="spacer2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>80</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="allmiddleframe">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_17">
+      <item>
+       <widget class="QFrame" name="IAFrame">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QFrame" name="I1AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="I1A">
+              <property name="layoutDirection">
+               <enum>Qt::RightToLeft</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>First Name:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I2AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="I2A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>Last Name:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I3AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="I3A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>Position:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I4AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="QLabel" name="I4A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>PRC LN:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I5AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QLabel" name="I5A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>Staff-ID:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I6AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="I6A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>Contact No.:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I7AFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="I7A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>Date Hired:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I8AFrame">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <widget class="QLabel" name="I8A">
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font: Merriweather Sans;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+}</string>
+              </property>
+              <property name="text">
+               <string>Status:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="IBFrame">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QFrame" name="I1BFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLineEdit" name="I1B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 18px;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+QLineEdit::placeholder {
+    color: #DD5C6D;
+    font-style: italic;
+}
+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I2BFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <widget class="QLineEdit" name="I2B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 18px;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+QLineEdit::placeholder {
+    color: #DD5C6D;
+    font-style: italic;
+}
+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I3BFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QComboBox" name="I3B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QComboBox {
+    font-family: &quot;Merriweather Sans&quot;;
+	color: #D8EDF3;
+    font-size: 18px;
+	font-weight: bold;
+    padding: 5px;
+    border: 2px solid #072A42;
+    border-radius: 5px;
+    background-color: #DA99A5;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left: 1px solid #ccc;
+	background-color: #fafafa;
+}
+
+QComboBox::down-arrow {
+    image: url(:/icons/arrow down.png);
+	width: 23px;
+	height: 25px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #fafafa;
+    color: #072A42;
+    selection-background-color: #DA99A5;
+    selection-color: #fafafa ;
+    outline:#DA99A5;
+}
+</string>
+              </property>
+              <property name="editable">
+               <bool>true</bool>
+              </property>
+              <property name="currentText">
+               <string>Owner</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Owner</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Veterinarian</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Vet Assistant</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Secretary</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Assistant Secretary</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Groomer</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I4BFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <item>
+             <widget class="QLineEdit" name="I4B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 18px;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+QLineEdit::placeholder {
+    color: #DD5C6D;
+    font-style: italic;
+}
+</string>
+              </property>
+              <property name="text">
+               <string>N/A</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I5BCFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <item>
+             <widget class="QLineEdit" name="I5C">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 20px;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+QLineEdit::placeholder {
+    color: #DD5C6D;
+    font-style: italic;
+}
+</string>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="I5B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 18px;
+	color: #072A42;
+
+}
+
+</string>
+              </property>
+              <property name="text">
+               <string>ST -</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I6BFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QLineEdit" name="I6B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 18px;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+QLineEdit::placeholder {
+    color: #DD5C6D;
+    font-style: italic;
+}
+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I7BFrame">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QDateEdit" name="I7B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QDateEdit {
+	font-family: &quot;Merriweather Sans&quot;;
+	font: bold;
+	font-size: 18px;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+QDateEdit::placeholder {
+    color: #DD5C6D;
+    font-style: italic;
+}
+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="I8BFrame">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>55</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item>
+             <widget class="QComboBox" name="I8B">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QComboBox {
+    font-family: &quot;Merriweather Sans&quot;;
+	color: #D8EDF3;
+    font-size: 18px;
+	font-weight: bold;
+    padding: 5px;
+    border: 2px solid #072A42;
+    border-radius: 5px;
+    background-color: #DA99A5;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left: 1px solid #ccc;
+	background-color: #fafafa;
+}
+
+QComboBox::down-arrow {
+    image: url(:/icons/arrow down.png);
+	width: 23px;
+	height: 25px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #fafafa;
+    color: #072A42;
+    selection-background-color: #DA99A5;
+    selection-color: #fafafa ;
+    outline:#DA99A5;
+}
+</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Active</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>On Leave</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Dismissed</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Part-time</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="allbotframe">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_21">
+      <item>
+       <spacer name="spacer3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>175</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="buttframe">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <item>
+          <widget class="QPushButton" name="addbutt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font: Merriweather Sans;
+	font-size: 15px;
+	font-weight: bold;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 3px;
+	width: 80px;
+	height: 20px;
+			}
+
+QPushButton:hover {
+            background-color: #c1c8d4;  
+        }
+        QPushButton:pressed {
+            background-color: #DD5C6D;
+        }
+</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="cancellbutt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	font: Merriweather Sans;
+	font-size: 15px;
+	font-weight: bold;
+	color: #072A42;
+	background-color: #fafafa;
+	border: 2px solid #072A42;
+	border-radius: 6px;
+	padding: 3px;
+	width: 80px;
+	height: 20px;
+			}
+
+QPushButton:hover {
+            background-color: #c1c8d4;  
+        }
+        QPushButton:pressed {
+            background-color: #DD5C6D;
+        }
+</string>
+           </property>
+           <property name="text">
+            <string>Cancel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="HPAC IS/Hpac.qrc"/>
+ </resources>
+ <connections/>
+</ui>
