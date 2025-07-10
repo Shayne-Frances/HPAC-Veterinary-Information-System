@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>Client.png</file>
+    <file>Inventory.png</file>
+    <file>logo.png</file>
+    <file>Patient.png</file>
+    <file>Staff.png</file>
+    <file>Supplier.png</file>
+    <file>arrow down.png</file>
+  </qresource>
+</RCC>
